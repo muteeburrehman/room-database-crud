@@ -3,8 +3,10 @@ package pk.codebase.roomdatabasecrud.Room;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+import java.io.Serializable;
+
 @Entity
-public class Users {
+public class Users implements Serializable {
     @PrimaryKey(autoGenerate = true)
     private int id;
 

@@ -25,7 +25,11 @@
     android:text="Insert"
     android:textColor="@color/white"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"    />
+    android:layout_height="wrap_content"/>
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/usersRecycler" />
 
 
 </LinearLayout>
